@@ -50,9 +50,39 @@ section.estudios{
     padding: 0;
     
 }
+section.proyect{
+    display: flex;
+    height: 430px;
+    background-color: cornflowerblue;
+}
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    margin-right: 0;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
 h2, p{
     color:azure;
     margin-left: 0.5rem;
+}
+
+#proyecto{
+    color: black;
+    background-color: rgb(5, 119, 167);
+    padding: 0;
+}
+#habili{
+    color: black;
+    background-color: rgb(5, 119, 167);
+    padding: 0;
 }
 .codo{
     padding-top: 2rem;
